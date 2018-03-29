@@ -19,13 +19,13 @@ GraphicsSettings_Desc = Justera grafiska inställningar som har med spelets utsee
 
 GraphicsSettings_Icon_Performance = Prestanda
 GraphicsSettings_Icon_Rendering = Rendering
-GraphicsSettings_Icon_Effects = Effects
+GraphicsSettings_Icon_Effects = Effekter
 
 AudioSettings_Title = Ljud Inställningar
 AudioSettings_Desc = Justera volymen för varje typ av ljud.
 
 AudioSettings_Icon_VoiceActing = Voice Acting
-AudioSettings_Icon_Volume = Volume
+AudioSettings_Icon_Volume = Volym
 AudioSettings_Icon_Music = Musik
 
 InputSettings_Title = Input Inställningar
@@ -33,35 +33,35 @@ InputSettings_Desc = Byt dina Input metoder, lägg till nya controller eller ändr
 InputSettings_Desc_Console = Justera inställningar relaterade till kontroller.
 
 InputSettings_Icon_KeyBinds = Input Hjälp
-InputSettings_Icon_Controllers = Controllers
-InputSettings_Icon_Controllers_PS4 = Wireless controller
-InputSettings_Icon_Controllers_XBOX = Controller
-InputSettings_Icon_InvertAxis = Invert Axis
+InputSettings_Icon_Controllers = Kontroller
+InputSettings_Icon_Controllers_PS4 = Trådlöss Kontroll
+InputSettings_Icon_Controllers_XBOX = Kontroll
+InputSettings_Icon_InvertAxis = Invertera Axis
 
 [systemsettings.game]
 Header_Singleplayer = Single Player
 
 Item_SpeedrunTimer_Title = Speedrun Timer
-Item_SpeedrunTimer_Desc = Keeps track of your per-level play time.
-Item_SpeedrunTimer_Item_Off = Off
-Item_SpeedrunTimer_Item_On = On
+Item_SpeedrunTimer_Desc = Haller koll pa din per-level tid.
+Item_SpeedrunTimer_Item_Off = Av
+Item_SpeedrunTimer_Item_On = På
 Item_SpeedrunTimer_Item_GameOnly = Bara Game Timer
 Item_SpeedrunTimer_Item_ActOnly = Bara Act Timer 
 
-Item_Language_Title = Sprak
-Item_Language_Desc = Spraket som text visas i. Detta ändrar inte voice acting (du kan justera voice acting i Ljud Inställningar).
+Item_Language_Title = Språk
+Item_Language_Desc = Språket som text visas i. Detta ändrar inte voice acting (du kan justera voice acting i Ljud Inställningar).
 
 Item_SkipCinematics_Title = Auto Skip Skippable Cutscenes
-Item_SkipCinematics_Desc = If you're in a hurry, or have already seen them, you can skip all skippable in-game cutscenes by enabling this. Keep in mind that you can still skip cinematics at any time regardless of this setting.
+Item_SkipCinematics_Desc = Om du har brottom, eller redan har sett dem, du kan skippa alla in-game cutscenes som tillater det genom att sätta på det här. Du kan fortfarande skippa scenerna när du vill oavsät inställningen.
 
 Header_SplitScreen = Split Screen
-Item_AllowSharedScreen_Title = Allow Shared Screen
-Item_AllowSharedScreen_Desc = Split screen may be temporarily forced off at certain parts of the game.
+Item_AllowSharedScreen_Title = Tillåt Shared Screen
+Item_AllowSharedScreen_Desc = Split screen kan temporärt tvingas av för några delar av spelet.
 
-Item_SplitScreenMethod_Title = Split Screen Alignment
-Item_SplitScreenMethod_Item_Horizontal = Horizontal
-Item_SplitScreenMethod_Item_Vertical = Vertical
-Item_SplitScreenMethod_Desc = Change the way the screen is split with two players.
+Item_SplitScreenMethod_Title = Split Screen Orientering
+Item_SplitScreenMethod_Item_Horizontal = Horizontalt
+Item_SplitScreenMethod_Item_Vertical = Verticalt
+Item_SplitScreenMethod_Desc = Ändra sättet skärmen delas med två spelare.
 
 Header_Camera = Kamera
 Header_Camera_Adv = Avancerad Kamera
@@ -70,20 +70,20 @@ Item_FieldOfView_Title = Field of View
 Item_FieldOfView_Item_TV = TV (80)
 Item_FieldOfView_Item_PC = PC Monitor (90)
 Item_FieldOfView_Item_Custom = Egen...
-Item_FieldOfView_Item_Desc = Higher Field of View (FoV) values widen your peripheral vision, while lower values narrow it. Higher FoV values are recommended for when you're close to the display, while lower values are recommended when you're at a distance.
+Item_FieldOfView_Item_Desc = Högre Field of View (FoV) värden vidgar din perifer vision, medan mindre värden smalnar det. Högre FoV värden är recomenderat för när du är nära skärmen, annars är mindre värden recomenderat när du har avstånd fran skärmen.
 
-Item_CameraAssist_Title = Camera Assist
-Item_CameraAssist_Desc = When enabled, allows the game to contextually control your camera for a better experience. Recommended if you dislike manual camera controls.
+Item_CameraAssist_Title = Kamera Assist
+Item_CameraAssist_Desc = När igång, tillåter spelet contextuelt kontrollera kameran för en bättre upplevelse. recomenderas om du inte gillar manuel kamera kontroll.
 
-Item_CameraShake_Title = Camera Shake
-Item_CameraShake_Desc = Turn on to feel the true realism of earthquakes as your screen vibrates slightly. Turn off to stop feeling nauseous.
+Item_CameraShake_Title = Kamera Skakning
+Item_CameraShake_Desc = Sätt på för att känna sann realism av jordbävningar när din skärm skakar en aning. Stäng av för att sluta må illa.
 
-Item_ControllerTopDown_Title = Top-Down Camera
-Item_ControllerTopDown_Desc = If enabled, the camera will zoom out to a bird's-eye view. If disabled, the camera will rotate freely.
-Item_ControllerTopDown_Item_None = None
-Item_ControllerTopDown_Item_Controller = Controller Only
-Item_ControllerTopDown_Item_Mouse = Mouse Only
-Item_ControllerTopDown_Item_All = Both
+Item_ControllerTopDown_Title = Top-Down Kamera
+Item_ControllerTopDown_Desc = Om påslaget, kameran kommer zooma ut till fågel vy. om avstängd, kameran kommer rotera fritt.
+Item_ControllerTopDown_Item_None = Inget
+Item_ControllerTopDown_Item_Controller = Bara Kontroll
+Item_ControllerTopDown_Item_Mouse = Bara Mus
+Item_ControllerTopDown_Item_All = Båda
 
 Item_CameraSmoothRotation_Title = Camera Smoothing
 Item_CameraSmoothRotation_Desc = Smoothly moves the camera rotation to the desired angle. This helps reduce jitteriness as well as motion sickness (especially for any third parties watching). Effect is most noticeable with a mouse. Off for raw input.
@@ -123,19 +123,19 @@ Item_DevConsole_Title = Developer Console
 Item_DevConsole_Desc = Allows access to the developer console. The game needs to be restarted for this option to take effect. Press TAB / tilde to open.
 
 [systemsettings.audio]
-Header_Audio = Audio
-Header_Volume = Volume
+Header_Audio = Ljud
+Header_Volume = Volym
 
-Item_MusicVolume_Title = Music Volume
+Item_MusicVolume_Title = Music Volym
 Item_MusicVolume_Desc = Adjusts background music volume. 100% is the recommended value, but you can increase the volume beyond that.
 
-Item_SoundEffectVolume_Title = Sound Effect Volume
+Item_SoundEffectVolume_Title = Sound Effect Volym
 Item_SoundEffectVolume_Desc = Adjusts the volume of sound effects. 100% is the recommended value, but you can increase the volume beyond that.
 
-Item_VAVolume_Title = Dialogue Volume
+Item_VAVolume_Title = Dialogue Volym
 Item_VAVolume_Desc = Adjusts the volume of spoken dialogue, including mumble. 100% is the recommended value, but you can increase the volume beyond that.
 
-Item_MasterVolume_Title = Master Volume
+Item_MasterVolume_Title = Master Volym
 Item_MasterVolume_Desc = Adjusts the volume of the entire game. 100% is the recommended value, but you can increase the volume beyond that.
 
 Item_VAType_Title = Voice Acting Type
@@ -144,7 +144,7 @@ Item_VAType_Item_Full = Full
 Item_VAType_Item_Mumble = Mumble
 Item_VAType_Item_None = None
 
-Item_VolumeOnFocusLost_Title = Out of Focus Volume
+Item_VolumeOnFocusLost_Title = Out of Focus Volym
 Item_VolumeOnFocusLost_Desc = Adjusts the volume of the game when the game window is not in focus.
 
 Item_Audio3DPositioning_Title = 3D Positional Audio
